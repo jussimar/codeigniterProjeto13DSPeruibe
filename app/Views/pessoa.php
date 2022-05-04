@@ -1,5 +1,4 @@
 <h1> <?=$title?> </h1>
-
 <table class="table">
     <tr>
         <td>Nome:</td>
@@ -15,12 +14,9 @@
         <td><?=  $pessoa_item['profissao']  ?></td>
         <td><?=  $pessoa_item['idade']  ?></td>
     </tr>
-
     <?php
     }   
-
     ?>
-
 </table>
 
 
